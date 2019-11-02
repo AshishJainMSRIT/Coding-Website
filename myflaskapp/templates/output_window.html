@@ -1,0 +1,12 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+  <h2>Output:</h2>
+  {{r.output}}
+  <hr>
+  <div>
+      <h3>Time taken:</h3>
+      <p >{{r.time | safe}}</p>
+  </div>
+
+  {% endblock%}
