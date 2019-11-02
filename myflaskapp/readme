@@ -1,0 +1,6 @@
+Goto myflaskapp folder in command prompt
+Install flask
+Install packages that are imported in app.py file
+Create database with tables.
+Run command: python app.py
+Open browser with url: localhost:5000 
